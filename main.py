@@ -20,4 +20,8 @@ print(question_bank[0].text)
 
 quiz = QuizBrain(question_bank)
 
-quiz.next_question()
+# quiz.next_question()
+
+
+while quiz.still_has_questions() == True:
+    quiz.next_question()
