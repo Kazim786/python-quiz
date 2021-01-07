@@ -28,7 +28,8 @@ class QuizBrain:
             print("Answer is right")
             self.score +=  1
         print(f"Your score so far is {self.score}/{self.question_number}")
-
+        if self.question_number == len(self.question_list):
+            print(f"You have finished the quiz, your final score is {self.score}")
         
 
 
