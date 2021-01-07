@@ -25,8 +25,8 @@ class QuizBrain:
             print(f"Answer is wrong. Correct answer: {right_answer.lower()}")
         else:
             print("Answer is right")
-            self.score += 1
-        print(f"Your score so far is {self.score}")
+            self.score +=  1
+        print(f"Your score so far is {self.score}/{self.question_number}")
 
         
 
