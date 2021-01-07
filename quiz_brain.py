@@ -38,13 +38,3 @@ class QuizBrain:
 
 
 
-# a_question = Question(question["text"], question["answer"])
-
-
-#  for question in current_question:
-#             answer = input(f"Q.{self.question_number}: {current_question.text} (True/False)?")
-#             #answer = input(f"Q.{self.question_number}: {question_bank[question].text} (True/False)?")
-
-#             # answer = input("(True/False)?")
-#             if answer != question_bank[question].answer:
-#                 print("Incorrect answer")
