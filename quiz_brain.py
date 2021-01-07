@@ -1,4 +1,3 @@
-from main import question_bank
 
 class QuizBrain:
     #question_list
