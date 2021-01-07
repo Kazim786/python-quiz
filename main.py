@@ -13,3 +13,13 @@ question_bank = []
 # all_fruits = ["apple",
 # "banana", "orange"]
 # all_fruits.append("pear")
+
+for question in question_data:
+    # print(question["text"])
+    a_question = Question(question["text"], question["answer"])
+
+    question_bank.append(a_question)
+
+# print(len(question_bank))
+print(question_bank)
+
