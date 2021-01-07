@@ -12,6 +12,6 @@ for question in question_data:
     question_bank.append(a_question)
 
 # print(len(question_bank))
-print(question_bank)
+print(question_bank[0].text)
 #Did it by myself 
 
