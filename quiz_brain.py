@@ -15,8 +15,21 @@ class QuizBrain:
         current_question = self.question_list[self.question_number]
         self.question_number += 1
         # current_question
-        input(f"Q.{self.question_number}: {current_question.text} (True/False)?")
+        answer = input(f"Q.{self.question_number}: {current_question.text} (True/False)?")
             #answer = input(f"Q.{self.question_number}: {question_bank[question].text} (True/False)?")
+        self.check_answers(answer, current_question.answer)
+
+    def check_answers(self, user_answer, right_answer):
+        if user_answer != right_answer:
+            print("Answer is wrong")
+        else:
+            print("Answer is right")
+        
+
+
+
+
+
 
 # a_question = Question(question["text"], question["answer"])
 
